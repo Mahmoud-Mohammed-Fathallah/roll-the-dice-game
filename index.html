@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dice game</title>
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- style css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- favicon -->
+    <link rel="icon" href="./favicon.ico?v=2" type="image/x-icon">
+</head>
+
+<body>
+    <h1 class="heading">Roll the dice</h1>
+    <div class="grid-container">
+        <div class="dicee rightmargin">
+            <div class="invisible dot six five four"></div>
+            <div class="invisible"></div>
+            <div class="invisible dot six five two four three"></div>
+            <div class="invisible dot six"></div>
+            <div class="invisible dot one five three"></div>
+            <div class="invisible dot six"></div>
+            <div class="invisible dot six five two four three"></div>
+            <div class="invisible"></div>
+            <div class="invisible dot six five four"></div>
+        </div>
+        <div class="dicee leftmargin">
+            <div class="invisible dot six five four"></div>
+            <div class="invisible"></div>
+            <div class="invisible dot six five two four three"></div>
+            <div class="invisible dot six"></div>
+            <div class="invisible dot one five three"></div>
+            <div class="invisible dot six"></div>
+            <div class="invisible dot six five two four three"></div>
+            <div class="invisible"></div>
+            <div class="invisible dot six five four"></div>
+        </div>
+        <div class="name1">Player 1 score:</div>
+        <div class="name2">Player 2 score:</div>
+    </div>
+    <div class="button-grid">
+        <button onclick="main()" class="rightmargin">click to roll!</button>
+        <button onclick="end()" class="leftmargin">End match</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
