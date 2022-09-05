@@ -1,28 +1,29 @@
 body{
     background-image: url(images/two.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     text-align: center;
-    font-family: 'Pacifico', cursive;
-    color: #fcc729;
+    font-family: 'Changa', sans-serif;
+    color: #f76c6c;
 }
 .heading{
     margin-top: 5%;
     font-size: 4.5rem;
 }
 button{
-    background-color: #fcc729;
+    background-color: #f76c6c;
     padding: 2% 10%;
     border-style: none;
     border-radius: 10px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Changa', sans-serif;
     font-size: 2em;
     color: rgb(255, 255, 255);
     width: 70%;
     margin: 20px auto;
+    transition: .5s;
 }
 button:hover{
-    background-color: #d4a412;
+    background-color: #6a0f0f;
 }
 .grid-container{
     display: grid;
