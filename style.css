@@ -57,9 +57,10 @@ button:hover{
     width: 30px;
     margin: auto;
     text-align: center;
+    transition: .6s;
 }
 .invisible{
-    visibility: hidden;
+    background-color: transparent;
 }
 .name1{
     padding-left: 55%;
